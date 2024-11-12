@@ -1,13 +1,5 @@
----
-title: G
-emoji: 🚀
-colorFrom: red
-colorTo: green
-sdk: gradio
-sdk_version: 5.5.0
-app_file: app.py
-pinned: false
----
+ABSTRACT:
+The increasing prevalence of digital authentication has led to a greater need for efficient, strong face anti-spoofing systems that protect privacy and security. Conventional systems often fall short against advanced attacks, such as print and replay, particularly in real-time scenarios. This study presents a face anti-spoofing model that merges MobileViT and CNN architectures, bolstered by multi-scale adaptive attention and data augmentation derived from StyleGAN2, to enhance the model's accuracy and flexibility. By targeting issues related to computational efficiency and privacy, the model employs techniques such as model quantization, knowledge distillation, and model pruning with ONNX execution. These enhancements are designed to ensure high performance in environments with limited resources, resulting in a lightweight yet effective model suitable for EdgeAI implementation. Important factors include privacy and adherence to regulations like Aadhar guidelines; the model integrates secure WebAssembly (WASM) and the Web Crypto API for safeguarding data while utilizing multi-scale replay attack detection and dynamic switching between active and passive detection for reliable spoofing identification. Temporal analysis facilitated by optical flow strengthens detection abilities, whereas model partitioning and progressive loading via a PWA enable compatibility with web platforms. By incorporating EdgeAI for distributing workloads, this solution promotes cost-effectiveness and scalability across various edge settings. Initial findings show significant advancements in speed, precision, and adaptability focused on privacy, establishing this model as a groundbreaking addition to the anti-spoofing research domain. The implications reach further than mere technical improvements, offering a scalable, regulation-compliant solution that emphasizes security and privacy, rendering it an accessible, sustainable method for digital authentication. Therefore, this research not only addresses existing gaps in the field but also establishes new benchmarks for face anti-spoofing technology in secure, real-time settings.
 
 # Face Liveness Detection
 
